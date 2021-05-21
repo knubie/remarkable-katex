@@ -11,14 +11,10 @@ const rkatex = (md, options) => {
   const delimiter = opts.delimiter || dollar;
   if (delimiter.length !== 1) { throw new Error('invalid delimiter'); }
 
-  const katex = require("katex");
-
   /**
-   * Render the contents as KaTeX
+   * Render the contents as KaTeX (Stubbed)
    */
-  const renderKatex = (source, displayMode) => katex.renderToString(source,
-                                                                    {displayMode: displayMode,
-                                                                     throwOnError: false});
+  const renderKatex = (source, displayMode) => "";
 
   /**
    * Parse '$$' as a block. Based off of similar method in remarkable.
