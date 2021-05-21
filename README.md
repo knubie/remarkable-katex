@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/bradhowes/remarkable-katex.svg?branch=master)](https://travis-ci.org/bradhowes/remarkable-katex)
 
+> ℹ️&nbsp;&nbsp;&nbsp;**Note**: This fork removes the redner function, removing the dependency on katex.
+
 # Overview
 
 This is a [Remarkable](https://github.com/jonschlinkert/remarkable) plugin that converts
